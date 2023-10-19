@@ -1,6 +1,6 @@
 gsap.registerPlugin(ScrollTrigger);
 
-// animating the info-status
+// info status animation goes here
 const animate = (config) => {
     gsap.to(config.class, {
         opacity: 1,
@@ -9,13 +9,12 @@ const animate = (config) => {
             trigger: config.trigger,
             end: config.end,
             start: config.start,
-            // toggleActions: 'play reverse complete reset'
             toggleActions: 'play reverse restart reset'
         },
     });
 }
 
-// animating the background
+// for the background animation
 const animateBg = (config) => {
     gsap.to(config.class, {
         color: config.color,
@@ -25,12 +24,11 @@ const animateBg = (config) => {
             end: config.end,
             start: config.start,
             toggleActions: 'restart pause restart pause'
-            // toggleActions: 'reset restart restart reset'
         },
     });
 }
 
-//animating the svg path
+//svg path animation
 const animateSvg = (config) => {
     gsap.to(config.class, {
         strokeDasharray: `${config.strokeLength}, 1000`,
