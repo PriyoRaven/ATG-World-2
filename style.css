@@ -1,7 +1,6 @@
 /*Google Font*/
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-
 * {
   padding: 0;
   margin: 0;
@@ -18,6 +17,21 @@ html {
   font-size: 62.75%;
 }
 
+/*Scroll Bar*/
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #b5b5b5;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ababab;
+}
+
+/*For the pages*/
 p,
 h1,
 h2 {
@@ -62,6 +76,8 @@ h2 {
   order: 1;
 }
 
+
+/*Statuses*/
 .info-status {
   text-align: right;
   position: absolute;
@@ -154,7 +170,7 @@ button .arrow-right {
   letter-spacing: 1rem;
 }
 
-/* Position images */
+/* Image Positioning */
 .img {
   position: absolute;
   transform: translateY(-200px);
@@ -256,6 +272,16 @@ button .arrow-right {
   z-index: 3000;
 }
 
+/*Mobile and tab view works*/
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  opacity: .5;
+  border-radius: 50%;
+  margin: 7px;
+}
 .slider-mobile {
   position: absolute;
   left: 50%;
@@ -265,14 +291,6 @@ button .arrow-right {
   align-items: center;
   justify-content: space-between;
   z-index: 5000;
-}
-.dot {
-  width: 10px;
-  height: 10px;
-  background-color: #fff;
-  opacity: .5;
-  border-radius: 50%;
-  margin: 7px;
 }
 
 @media (max-width: 1700px) {
