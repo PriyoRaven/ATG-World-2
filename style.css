@@ -15,6 +15,7 @@ body {
 
 html {
   font-size: 62.75%;
+  touch-action: pan-y;
 }
 
 /*Scroll Bar*/
@@ -655,3 +656,4 @@ button .arrow-right {
       width: 30rem;
   }
 }
+/*The end lets hope for the best*/
