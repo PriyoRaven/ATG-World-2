@@ -109,6 +109,7 @@ p {
   bottom: 20rem;
   width: 30rem;
   transform: translateY(-1rem);
+  display: block !important;
   opacity: 0;
 }
 .info-ad p {
