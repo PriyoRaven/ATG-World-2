@@ -116,6 +116,36 @@ p {
   font-size: 1.8rem;
 }
 
+/*Problem with global*/
+.ad-1 {
+  display: block !important;
+}
+
+.ad-2 {
+  display: block !important;
+}
+
+.ad-3 {
+  display: block !important;
+}
+
+.ad-4 {
+  display: block !important;
+}
+
+.ad-5 {
+  display: block !important;
+}
+
+.ad-6 {
+  display: block !important;
+}
+
+.ad-7 {
+  display: block !important;
+}
+
+/*LOGO*/
 .logo {
   opacity: 0;
   position: absolute;
